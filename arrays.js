@@ -15,4 +15,9 @@ console.log(`Order #3: ${drinks[2]}, ${pastry[1]}\n`);
 let drinks_index = 0;
 let pastry_index = 1;
 
-console.log(`Order: ${drinks[drinks_index]}, ${pastry[pastry_index]}`);
+console.log(`Order: ${drinks[drinks_index]}, ${pastry[pastry_index]}\n`);
+
+// Task 5
+for (let i = 0; i < drinks.length; i++) {
+    console.log(`Drink #${i+1}: ${drinks[i]}`);
+}
