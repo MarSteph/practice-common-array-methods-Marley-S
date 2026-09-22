@@ -21,3 +21,17 @@ console.log(`Order: ${drinks[drinks_index]}, ${pastry[pastry_index]}\n`);
 for (let i = 0; i < drinks.length; i++) {
     console.log(`Drink #${i+1}: ${drinks[i]}`);
 }
+
+// Task 6
+let length = drinks.length;
+let new_drink = "Flat White";
+console.log(`\nNumber of drinks: ${length}\n`);
+drinks[length] = new_drink;
+length = drinks.length;
+console.log(`Added ${new_drink} drink. The new length is ${length}.\n`);
+
+for (drink of drinks) {
+    console.log(drink);
+}
+
+console.log(`\nNumber of drinks: ${length}`);
